@@ -44,12 +44,6 @@ footer-text: <p>Copyright &copy; <script>document.write(new Date().getFullYear()
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
 
-# Toolbar color for Chrome on Android.
-theme-color-attr: "#1E90FF"
-
-# Color of Microsoft live Tile.
-ms-tile-color: "#1E90FF"
-
 display-author-post-page: true
 display-author-front-page: true
 

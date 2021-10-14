@@ -5,12 +5,6 @@
     color-scheme: light, dark;
 }
 
-::selection {
-  background: rgba({{ site.theme-color }}, .2);
-}
-::-moz-selection {
-  background: rgba({{ site.theme-color }}, .2);
-}
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -126,7 +120,7 @@ h3, h4, h5, h6 {
   margin-bottom: 30px;
 }
 .meta {
-  color: rgba({{ site.text-color }}, 0.5);
+
   display: block;
   margin-bottom: 10px;
   font-weight: 400;
@@ -143,19 +137,15 @@ td, th {
   padding: .8rem
 }
 th {
-  background-color: rgba({{ site.text-color }}, 0.05);;
 }
 tr {
-  border-bottom: 1px solid  rgba({{ site.text-color }}, 0.05);
 }
 tr:last-child {
   border: none;
 }
 thead {
-  border-bottom: 2px solid rgba({{ site.theme-color }}, .4);
 }
 tfoot {
-  border-top: 2px solid rgba({{ site.theme-color }}, .4);
 }
 blockquote {
   padding: 0 20px;
@@ -212,15 +202,9 @@ small {
 }
 small a {
   color: inherit;
-  background-image: -webkit-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
-  background-image: -moz-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
-  background-image: -o-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
-  background-image: -ms-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
-  background-image: linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
 }
 hr {
   border:none;
-  background-color: rgba({{ site.theme-color }}, .4);
   margin: 60px auto;
   width: 30%;
   height: 2px;
@@ -238,7 +222,6 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  {% include gradient.css %}
 }
 
 /* Structure */
@@ -295,7 +278,6 @@ textarea {
   display: block;
   border-radius: 4px;
   margin-bottom: 30px;
-  border: 1px solid rgba({{ site.text-color }},.1);
   padding: 8px 15px;
   width: 100%;
   box-sizing: border-box;
