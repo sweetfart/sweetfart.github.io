@@ -50,19 +50,6 @@ theme-color-attr: "#1E90FF"
 # Color of Microsoft live Tile.
 ms-tile-color: "#1E90FF"
 
-# Color used throughout the theme. Format: R, G, B.
-theme-color: 0, 0, 0 # Original: 0, 240, 255
-
-# Text color used throughout the theme. Format: R, G, B.
-text-color: 0, 0, 0 # Original: 0, 0, 0
-
-# Background color used throughout the theme. Format: R, G, B.
-# Note: if you change the background color AND you use cover images, you should
-#       also change the CSS gradient in "_includes\gradient.css" to match the
-#       background color. Edit and copy it from here:
-#       http://www.colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100
-background-color: 255, 255, 255 # Original: 255, 255, 255
-
 display-author-post-page: true
 display-author-front-page: true
 
